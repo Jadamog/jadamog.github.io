@@ -1,0 +1,229 @@
+* {
+	box-sizing: border-box;
+
+}
+
+body { 
+	background-color: #EAEBE1;
+	margin: 0px;
+	padding: 0px;
+	z-index: 1;
+	/*background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAASUlEQVQYV2Pk4nczfnBn9hkGAoDx1euH/xVUUk0IKQYrBBlGSDFcISHFKArxKcaqEKQB3c04rUZ3M17PICsmGDwwxYzEBDhIMQCf8lH6G0tF8wAAAABJRU5ErkJggg==) repeat; /*http://bit.ly/13R65Oy*/	
+	/*background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAASElEQVQYV2NUNVv4/4dVPwMhwChbYPCf41ghAyHFYIUg0wgphiskpBhFIT7FWBWCNKC7GafV6G7G6xlkxQSDB6aYkZgABykGAISWN6JNKQeiAAAAAElFTkSuQmCC) repeat; /*http://bit.ly/1eCwUeC*/
+	/*background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAECAYAAABGM/VAAAAAXUlEQVQIW2N895/1v7b6MoYd4hUMTuH/Gd7WbWJg9JDp+l93s4HBbf1rhuxJHQydAYoMjBxdgv/lv5YwsM8xZohj9GAoSQQK/udk+K8g48+w8cJGhuD7DAwsfbsYAFdaHewgh//QAAAAAElFTkSuQmCC
+	) repeat;*/ /*colorfull one*/
+	/*background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAASElEQVQYV2NkS+T/L/PuOAMhwKjkf+3/EyFLBkKKwQpBphFSDFdISDGKQnyKsSoEaUB3M06r0d2M1zPIigkGD0wxIzEBDlIMAHGrOvZE6UgjAAAAAElFTkSuQmCC) repeat; SUPER BLUE!!!*/
+	/*background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAASElEQVQYV2MUa7X8z/IumIEQYJQq7vn/R2gtAyHFYIUg0wgphiskpBhFIT7FWBWCNKC7GafV6G7G6xlkxQSDB6aYkZgABykGAAJ+ObZUjkX1AAAAAElFTkSuQmCC) repeat; /*turquise http://bit.ly/140Z8KT*/
+	/*background:urldata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAASElEQVQYV2PkOynyn2dVBQMhwChV3PP/S1gHAyHFYIUg0wgphiskpBhFIT7FWBWCNKC7GafV6G7G6xlkxQSDB6aYkZgABykGAAfoOc3qmFr5AAAAAElFTkSuQmCC  repeat;  same ^ but stronger green lines */
+	background-image: url(background2.png);
+	-webkit-background-size: cover;
+	background-size: 100%;
+	
+}
+
+#hi {
+	font-size: 160px;
+	color: #D1DBE0;
+	font-family: myriad pro, Helvetica, serif;
+	text-align: center;
+	margin: 0 auto;
+	/*-webkit-text-stroke: 1px #D9D0D3;*/
+	text-shadow: 2px 2px 0px #888;
+	z-index: 10;
+	opacity: 1;
+	-webkit-box-reflect: below -75px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(40%, transparent), to(rgba(255,255,255,0.2)));
+
+}
+
+#homelink {
+	text-decoration: none;
+	
+}
+
+#homelink:hover {
+	opacity: .7;
+    -webkit-transition-timing-function: linear;
+    -webkit-transition-duration: .25s;
+    -webkit-transition-property: ease-in-out;
+
+	
+}
+
+h2 {
+	
+	font-family: 'ABeeZee', myriad pro, Helvetica, serif;
+	font-weight: bold;
+	text-align:center;
+	margin: 10px 0px -20px 0px;
+	font-size: 30px;
+	
+
+}
+	
+p {
+	font-family: myriad pro, helvetica, serif;
+	color: #2A3236;
+	font-size: 2em
+	position: absolute;
+	text-align:center;
+	opacity:2;
+
+}
+
+.banner {
+	height: 150px;
+	background-color: #2A3236;
+	text-align: center;
+	opacity:0.9;
+	z-index: 10;
+	margin-left: auto;
+	margin-right: auto;
+	top: 0px;
+	width: 100%;
+
+}
+
+#logo {
+	height: 150px;
+ 	width: auto;
+ 	background-color: #B01919;
+ 	
+}
+
+#socialmediaicons {
+	background-image:url("social media icons.png");
+	/*background-repeat:no-repeat; */
+	background-size: 170px;
+	height: 60px;
+	width: 170px;
+	float: right;
+	position:relative;
+	top: -150px;
+	z-index: 1000;
+
+}
+
+#facebooklink {
+	height: 35px;
+	width: 35px;
+	display:block;
+	position:absolute;
+	top: 8px;
+	right: 117px;
+	
+	-webkit-transition: background-color 0.25s linear;
+
+	
+}	
+
+#facebooklink:hover {
+	background-color: rgba(255, 255, 255, 0.2)
+	
+}	
+#tumblrlink {
+	height: 35px;
+	width: 35px;
+	display:block;
+	position:absolute;
+	top: 8px;
+	right: 71px;
+	
+	-webkit-transition: background-color 0.25s linear;
+		
+}
+
+#tumblrlink:hover {
+	background-color: rgba(255, 255, 255, 0.2)
+	
+}
+
+#link3 {
+	height: 35px;
+	width: 43px;
+	display:block;
+	position:absolute;
+	top: 8px;
+	right: 17px;
+	
+	-webkit-transition: background-color 0.25s linear;		
+	
+}
+
+#link3:hover {
+	background-color: rgba(255, 255, 255, 0.2)
+	
+}
+
+#center {
+	/*background-color: #BEBFB6;*/
+	background-color: white;
+	height: 600px; 
+	width: 700px;
+	margin: 0 auto;
+	display: fixed;
+	margin-top: 85px;
+	border-radius: 50px;
+	/*opacity:0.9;*/
+	/*box-shadow: 5px 5px 10px #818279;*/
+	z-index: 10;
+	background-color: rgba(255,255,255,0.9);
+
+}
+
+
+form {
+	margin: 50px 0px 0px 50px;
+	font-size: 20px;
+	font-family: 'ABeeZee', myriad pro, Helvetica;
+	font-weight: bold;
+	
+}
+
+input {
+	border-radius: 5px;
+	background-color: white;
+	margin: 0px 0px 20px -2px;
+	border: #BEBFB6 solid 1px;
+}
+	
+[name=submit] {
+	font-weight: bold;
+	border-radius: 10px;
+		
+}
+
+[name=submit]:hover {
+	background-color: #2A3236;
+	color: #BEBFB6;
+	cursor: hand;
+}
+
+
+textarea{
+	border-radius: 10px;
+	border: #BEBFB6 solid 1px;
+	margin: 0px 0px 20px -2px;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
